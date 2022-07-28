@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>Stay In the Loop</h2>
+                <div class="lead">Get the latest Update</div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta maiores
+                        sequi debitis nesciunt fugit! Quis repudiandae tempore porro quisquam, impedit dignissimos? Aut,
+                        illum cumque earum eos velit ipsam atque excepturi!</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">Register For
+                        updates</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- modal  -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title"> Register Here</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body">
+
+                    <form action="">
+                        <label for="modal-email" class="form-label">Email: </label>
+                        <input type="email" class="form-control" id="modal-email" placeholder="e.g.forexample@get.com">
+                        <label for="modal-password" class="form-label">Password: </label>
+                        <input type="password" class="form-control" id="modal-password">
+                        <label for="modal-confirm-password" class="form-label">Confirm Password: </label>
+                        <input type="password" class="form-control" id="modal-confirm-password">
+                        <button class="btn btn-primary mt-3"> Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
