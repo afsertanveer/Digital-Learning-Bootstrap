@@ -2,3 +2,12 @@
   min-height: 400px;
   filter: brightness(30%);
 }
+footer a {
+  text-decoration: none;
+  margin-top: 0;
+}
+.fa-brands {
+  margin-right: 20px;
+  font-size: 40px;
+  color: white;
+}
