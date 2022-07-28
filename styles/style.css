@@ -1,3 +1,9 @@
+h1 {
+  font-weight: bolder;
+}
+p {
+  color: #777777;
+}
 .carousel img {
   min-height: 400px;
   filter: brightness(30%);
@@ -9,5 +15,19 @@ footer a {
 .fa-brands {
   padding-left: 10px;
   font-size: 40px;
+  color: white;
+}
+.btn-color {
+  background-color: #289bde;
+  color: white;
+}
+#reg-button {
+  background-color: white;
+  color: #289bde;
+}
+#join {
+  background-color: #289bde;
+}
+#join p {
   color: white;
 }
